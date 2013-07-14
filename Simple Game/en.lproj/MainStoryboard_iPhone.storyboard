@@ -56,7 +56,6 @@
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGM-k5-RXj">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="E0P-e5-IvV"/>
-                                    <constraint firstAttribute="width" constant="73" id="fM1-h2-ssd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="butt-pug.png">
