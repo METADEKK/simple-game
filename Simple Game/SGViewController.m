@@ -26,6 +26,10 @@
     [[NSRunLoop currentRunLoop] addTimer:self.gameTimer forMode:NSDefaultRunLoopMode];
     self.gameTimeRemainign = MAX_GAME_LENGTH;
     self.timerLabel.text = [NSString stringWithFormat:@"%d", self.gameTimeRemainign];
+    
+    NSInteger randomButtonIndex = arc4random_uniform(self.punchButtons.count);
+    UIButton *buttonView = [self.punchButtons objectAtIndex:randomButtonIndex];
+    buttonView.hidden = NO;
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,6 +55,9 @@
     if (self.gameTimeRemainign == 0) {
         [self.gameTimer invalidate];
         self.gameOverLabel.hidden = NO;
+        [self.punchButtons enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL *stop) {
+            obj.hidden = YES;
+        }];
     }
 }
 @end
