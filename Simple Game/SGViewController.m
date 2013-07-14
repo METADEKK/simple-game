@@ -14,6 +14,13 @@
 
 @implementation SGViewController
 
+- (void)randomizeButton
+{
+    NSInteger randomButtonIndex = arc4random_uniform(self.punchButtons.count);
+    UIButton *buttonView = [self.punchButtons objectAtIndex:randomButtonIndex];
+    buttonView.hidden = NO;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -27,9 +34,7 @@
     self.gameTimeRemainign = MAX_GAME_LENGTH;
     self.timerLabel.text = [NSString stringWithFormat:@"%d", self.gameTimeRemainign];
     
-    NSInteger randomButtonIndex = arc4random_uniform(self.punchButtons.count);
-    UIButton *buttonView = [self.punchButtons objectAtIndex:randomButtonIndex];
-    buttonView.hidden = NO;
+    [self randomizeButton];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,6 +47,8 @@
     NSLog(@"yay!!!");
     
     self.score++;
+    sender.hidden = YES;
+    [self randomizeButton];
     [self updateLabel];
 }
 
