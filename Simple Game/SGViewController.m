@@ -21,10 +21,7 @@
     buttonView.hidden = NO;
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	
+- (void)newGame {
     self.score = 0;
     
     [self updateLabel];
@@ -33,8 +30,15 @@
     [[NSRunLoop currentRunLoop] addTimer:self.gameTimer forMode:NSDefaultRunLoopMode];
     self.gameTimeRemainign = MAX_GAME_LENGTH;
     self.timerLabel.text = [NSString stringWithFormat:@"%d", self.gameTimeRemainign];
-    
+    self.resetButton.hidden =YES;
     [self randomizeButton];
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	
+    [self newGame];
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,10 +65,13 @@
     self.timerLabel.text = [NSString stringWithFormat:@"%d", self.gameTimeRemainign];
     if (self.gameTimeRemainign == 0) {
         [self.gameTimer invalidate];
-        self.gameOverLabel.hidden = NO;
+        self.resetButton.hidden = NO;
         [self.punchButtons enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL *stop) {
             obj.hidden = YES;
         }];
     }
+}
+- (IBAction)startNewGame:(id)sender {
+    [self newGame];
 }
 @end

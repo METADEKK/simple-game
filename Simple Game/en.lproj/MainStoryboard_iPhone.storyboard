@@ -163,27 +163,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Game Over" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gf6-tH-S0Y">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="205" id="EEs-ph-W1h"/>
-                                    <constraint firstAttribute="height" constant="30" id="veU-h1-1W0"/>
-                                </constraints>
-                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
-                            </textField>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fno-Ml-uob">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Game Over. New Game?">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startNewGame:" destination="2" eventType="touchUpInside" id="GVR-iV-0e7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="6Xu-aW-CF5" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="0bu-c6-BQs"/>
                             <constraint firstItem="KMl-x1-I9K" firstAttribute="bottom" secondItem="voa-35-RTm" secondAttribute="bottom" type="default" id="4G8-Ob-0h9"/>
                             <constraint firstItem="gq7-Uv-thc" firstAttribute="leading" secondItem="kQx-s0-i0Z" secondAttribute="trailing" constant="30" type="user" id="4VD-9B-uGk"/>
-                            <constraint firstItem="gf6-tH-S0Y" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="53" id="5xn-Nv-DwT"/>
                             <constraint firstItem="KMl-x1-I9K" firstAttribute="leading" secondItem="kQx-s0-i0Z" secondAttribute="leading" type="user" id="6Bb-Jo-jdW"/>
                             <constraint firstItem="bG6-yG-N6G" firstAttribute="baseline" secondItem="GU2-ft-quW" secondAttribute="baseline" type="user" id="6SD-9z-KTg"/>
                             <constraint firstAttribute="bottom" secondItem="bG6-yG-N6G" secondAttribute="bottom" constant="149" id="82w-8D-1r6"/>
-                            <constraint firstItem="kQx-s0-i0Z" firstAttribute="top" secondItem="3" secondAttribute="top" constant="145" id="8Ue-pB-5h9"/>
-                            <constraint firstItem="gf6-tH-S0Y" firstAttribute="top" secondItem="Tq4-UI-O3I" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="9BB-Va-Tuy"/>
                             <constraint firstAttribute="trailing" secondItem="gq7-Uv-thc" secondAttribute="trailing" constant="20" symbolic="YES" type="user" id="AZq-e8-sjt"/>
                             <constraint firstItem="voa-35-RTm" firstAttribute="leading" secondItem="KMl-x1-I9K" secondAttribute="trailing" constant="30" type="user" id="Cdb-jj-7UM"/>
                             <constraint firstItem="Tq4-UI-O3I" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="ELk-xs-P4K"/>
@@ -204,23 +205,26 @@
                             <constraint firstItem="nxe-UO-ymu" firstAttribute="baseline" secondItem="GU2-ft-quW" secondAttribute="baseline" type="user" id="YfF-Sn-UHk"/>
                             <constraint firstItem="KMl-x1-I9K" firstAttribute="top" secondItem="voa-35-RTm" secondAttribute="top" type="default" id="Yrx-W2-CDn"/>
                             <constraint firstItem="nxe-UO-ymu" firstAttribute="bottom" secondItem="GU2-ft-quW" secondAttribute="bottom" type="default" id="ZcS-tl-LJL"/>
-                            <constraint firstItem="gq7-Uv-thc" firstAttribute="top" secondItem="OGM-k5-RXj" secondAttribute="top" type="default" id="c7m-0a-qKU"/>
-                            <constraint firstItem="GU2-ft-quW" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="eCG-e0-Zuh"/>
                             <constraint firstItem="kQx-s0-i0Z" firstAttribute="leading" secondItem="OGM-k5-RXj" secondAttribute="trailing" constant="31" type="user" id="fCI-Cs-Ar2"/>
                             <constraint firstItem="KMl-x1-I9K" firstAttribute="bottom" secondItem="6Xu-aW-CF5" secondAttribute="bottom" type="default" id="fb9-vQ-70h"/>
+                            <constraint firstItem="OGM-k5-RXj" firstAttribute="top" secondItem="gq7-Uv-thc" secondAttribute="top" type="default" id="gAZ-b3-YCz"/>
                             <constraint firstItem="nxe-UO-ymu" firstAttribute="leading" secondItem="voa-35-RTm" secondAttribute="leading" type="default" id="hvy-jR-Ahm"/>
                             <constraint firstAttribute="trailing" secondItem="nxe-UO-ymu" secondAttribute="trailing" constant="20" symbolic="YES" type="user" id="hwO-MX-zb1"/>
                             <constraint firstItem="GU2-ft-quW" firstAttribute="top" secondItem="bG6-yG-N6G" secondAttribute="top" type="default" id="oLO-YD-ESH"/>
+                            <constraint firstItem="Fno-Ml-uob" firstAttribute="centerX" secondItem="kQx-s0-i0Z" secondAttribute="centerX" type="default" id="oNN-FE-W96"/>
                             <constraint firstItem="voa-35-RTm" firstAttribute="baseline" secondItem="KMl-x1-I9K" secondAttribute="baseline" type="user" id="ozG-Xe-NMT"/>
+                            <constraint firstItem="Fno-Ml-uob" firstAttribute="top" secondItem="3" secondAttribute="top" constant="94" id="pTB-4X-xW6"/>
+                            <constraint firstItem="kQx-s0-i0Z" firstAttribute="top" secondItem="Fno-Ml-uob" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="pUi-MF-Vxh"/>
                             <constraint firstItem="bG6-yG-N6G" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="rR1-OT-lfR"/>
                             <constraint firstAttribute="trailing" secondItem="Tq4-UI-O3I" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="vrV-pZ-n0d"/>
                             <constraint firstItem="KMl-x1-I9K" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="wUr-Sx-yx2"/>
+                            <constraint firstItem="Fno-Ml-uob" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="ybi-95-58R"/>
                             <constraint firstItem="GU2-ft-quW" firstAttribute="leading" secondItem="bG6-yG-N6G" secondAttribute="trailing" constant="31" type="user" id="z5z-YX-MBC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="taH-S6-p37"/>
                     <connections>
-                        <outlet property="gameOverLabel" destination="gf6-tH-S0Y" id="hco-Oq-9sW"/>
+                        <outlet property="resetButton" destination="Fno-Ml-uob" id="rZZ-ag-OSw"/>
                         <outlet property="scoreBoard" destination="Tq4-UI-O3I" id="446-o8-5xc"/>
                         <outlet property="timerLabel" destination="KZK-sK-kbo" id="PZ6-y4-g9y"/>
                         <outletCollection property="punchButtons" destination="kQx-s0-i0Z" id="XLa-bQ-Lj6"/>
@@ -249,7 +253,9 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SGViewController.h"/>
             <relationships>
                 <relationship kind="action" name="buttonPressed:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="gameOverLabel" candidateClass="UITextField"/>
+                <relationship kind="action" name="startNewGame:"/>
+                <relationship kind="outlet" name="newGameButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="resetButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="scoreBoard" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="timerLabel" candidateClass="UITextField"/>
                 <relationship kind="outletCollection" name="punchButtons" candidateClass="UIButton"/>

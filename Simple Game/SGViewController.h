@@ -17,7 +17,8 @@
 @property NSInteger score;
 @property NSTimer* gameTimer;
 @property NSInteger gameTimeRemainign;
-@property (weak, nonatomic) IBOutlet UITextField *gameOverLabel;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *punchButtons;
+@property (weak, nonatomic) IBOutlet UIButton *resetButton;
+- (IBAction)startNewGame:(id)sender;
 
 @end
