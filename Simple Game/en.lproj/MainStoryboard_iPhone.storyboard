@@ -24,9 +24,12 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQx-s0-i0Z">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQx-s0-i0Z">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="KeA-wx-sX1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" backgroundImage="butt-pug.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -39,7 +42,7 @@
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gq7-Uv-thc">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" backgroundImage="butt-pug.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -51,8 +54,12 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGM-k5-RXj">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="E0P-e5-IvV"/>
+                                    <constraint firstAttribute="width" constant="73" id="fM1-h2-ssd"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" backgroundImage="butt-pug.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -65,7 +72,7 @@
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMl-x1-I9K">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" backgroundImage="butt-pug.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -78,7 +85,7 @@
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voa-35-RTm">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" backgroundImage="butt-pug.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -90,8 +97,11 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Xu-aW-CF5">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9gg-zD-57D"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" backgroundImage="butt-pug.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -104,7 +114,7 @@
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GU2-ft-quW">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" backgroundImage="butt-pug.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -117,7 +127,7 @@
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxe-UO-ymu">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" backgroundImage="butt-pug.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -129,8 +139,11 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bG6-yG-N6G">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="jP4-Z8-iVT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" backgroundImage="butt-pug.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -164,37 +177,45 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="6Xu-aW-CF5" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="0bu-c6-BQs"/>
+                            <constraint firstItem="KMl-x1-I9K" firstAttribute="bottom" secondItem="voa-35-RTm" secondAttribute="bottom" type="default" id="4G8-Ob-0h9"/>
                             <constraint firstItem="gq7-Uv-thc" firstAttribute="leading" secondItem="kQx-s0-i0Z" secondAttribute="trailing" constant="30" type="user" id="4VD-9B-uGk"/>
-                            <constraint firstItem="KMl-x1-I9K" firstAttribute="top" secondItem="kQx-s0-i0Z" secondAttribute="bottom" constant="63" type="user" id="5hB-1L-4o3"/>
                             <constraint firstItem="gf6-tH-S0Y" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="53" id="5xn-Nv-DwT"/>
                             <constraint firstItem="KMl-x1-I9K" firstAttribute="leading" secondItem="kQx-s0-i0Z" secondAttribute="leading" type="user" id="6Bb-Jo-jdW"/>
                             <constraint firstItem="bG6-yG-N6G" firstAttribute="baseline" secondItem="GU2-ft-quW" secondAttribute="baseline" type="user" id="6SD-9z-KTg"/>
+                            <constraint firstAttribute="bottom" secondItem="bG6-yG-N6G" secondAttribute="bottom" constant="149" id="82w-8D-1r6"/>
+                            <constraint firstItem="kQx-s0-i0Z" firstAttribute="top" secondItem="3" secondAttribute="top" constant="145" id="8Ue-pB-5h9"/>
                             <constraint firstItem="gf6-tH-S0Y" firstAttribute="top" secondItem="Tq4-UI-O3I" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="9BB-Va-Tuy"/>
                             <constraint firstAttribute="trailing" secondItem="gq7-Uv-thc" secondAttribute="trailing" constant="20" symbolic="YES" type="user" id="AZq-e8-sjt"/>
-                            <constraint firstItem="GU2-ft-quW" firstAttribute="top" secondItem="KMl-x1-I9K" secondAttribute="bottom" constant="60" type="user" id="C8p-Xw-zp6"/>
                             <constraint firstItem="voa-35-RTm" firstAttribute="leading" secondItem="KMl-x1-I9K" secondAttribute="trailing" constant="30" type="user" id="Cdb-jj-7UM"/>
                             <constraint firstItem="Tq4-UI-O3I" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="ELk-xs-P4K"/>
-                            <constraint firstItem="bG6-yG-N6G" firstAttribute="top" secondItem="6Xu-aW-CF5" secondAttribute="bottom" constant="60" type="user" id="GBU-eZ-0Qf"/>
                             <constraint firstItem="KZK-sK-kbo" firstAttribute="centerY" secondItem="Tq4-UI-O3I" secondAttribute="centerY" type="default" id="GQo-Sf-rZ0"/>
                             <constraint firstItem="KMl-x1-I9K" firstAttribute="leading" secondItem="6Xu-aW-CF5" secondAttribute="trailing" constant="31" type="user" id="Ga1-kN-1U6"/>
                             <constraint firstItem="KZK-sK-kbo" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="13" id="H0V-9p-qwU"/>
+                            <constraint firstItem="nxe-UO-ymu" firstAttribute="top" secondItem="GU2-ft-quW" secondAttribute="top" type="default" id="K23-sY-pDl"/>
                             <constraint firstAttribute="trailing" secondItem="voa-35-RTm" secondAttribute="trailing" constant="20" symbolic="YES" type="user" id="Mqw-N2-t4j"/>
                             <constraint firstItem="OGM-k5-RXj" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="PrI-DR-fLQ"/>
                             <constraint firstItem="nxe-UO-ymu" firstAttribute="leading" secondItem="GU2-ft-quW" secondAttribute="trailing" constant="30" type="user" id="QfS-1L-zCZ"/>
                             <constraint firstItem="OGM-k5-RXj" firstAttribute="top" secondItem="3" secondAttribute="top" priority="748" constant="146" type="user" id="REI-hM-Ln5"/>
-                            <constraint firstItem="6Xu-aW-CF5" firstAttribute="top" secondItem="OGM-k5-RXj" secondAttribute="bottom" constant="63" type="user" id="S8E-K3-osh"/>
-                            <constraint firstItem="nxe-UO-ymu" firstAttribute="top" secondItem="voa-35-RTm" secondAttribute="bottom" constant="60" type="user" id="SLu-hW-14J"/>
+                            <constraint firstItem="gq7-Uv-thc" firstAttribute="bottom" secondItem="OGM-k5-RXj" secondAttribute="bottom" type="default" id="UhZ-z2-Eun"/>
+                            <constraint firstItem="bG6-yG-N6G" firstAttribute="bottom" secondItem="GU2-ft-quW" secondAttribute="bottom" type="default" id="Wd7-Ke-h8y"/>
                             <constraint firstItem="6Xu-aW-CF5" firstAttribute="baseline" secondItem="KMl-x1-I9K" secondAttribute="baseline" type="user" id="Whb-WR-Bcq"/>
                             <constraint firstItem="GU2-ft-quW" firstAttribute="leading" secondItem="KMl-x1-I9K" secondAttribute="leading" type="user" id="XE3-Yu-jhZ"/>
+                            <constraint firstItem="gq7-Uv-thc" firstAttribute="leading" secondItem="voa-35-RTm" secondAttribute="leading" type="default" id="YL0-As-gtk"/>
+                            <constraint firstItem="KMl-x1-I9K" firstAttribute="top" secondItem="6Xu-aW-CF5" secondAttribute="top" type="default" id="YVT-eT-Hlf"/>
                             <constraint firstItem="nxe-UO-ymu" firstAttribute="baseline" secondItem="GU2-ft-quW" secondAttribute="baseline" type="user" id="YfF-Sn-UHk"/>
-                            <constraint firstItem="gq7-Uv-thc" firstAttribute="baseline" secondItem="kQx-s0-i0Z" secondAttribute="baseline" type="user" id="bfZ-Wj-Hz9"/>
-                            <constraint firstItem="OGM-k5-RXj" firstAttribute="baseline" secondItem="kQx-s0-i0Z" secondAttribute="baseline" type="user" id="c44-iy-JA4"/>
+                            <constraint firstItem="KMl-x1-I9K" firstAttribute="top" secondItem="voa-35-RTm" secondAttribute="top" type="default" id="Yrx-W2-CDn"/>
+                            <constraint firstItem="nxe-UO-ymu" firstAttribute="bottom" secondItem="GU2-ft-quW" secondAttribute="bottom" type="default" id="ZcS-tl-LJL"/>
+                            <constraint firstItem="gq7-Uv-thc" firstAttribute="top" secondItem="OGM-k5-RXj" secondAttribute="top" type="default" id="c7m-0a-qKU"/>
+                            <constraint firstItem="GU2-ft-quW" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="eCG-e0-Zuh"/>
                             <constraint firstItem="kQx-s0-i0Z" firstAttribute="leading" secondItem="OGM-k5-RXj" secondAttribute="trailing" constant="31" type="user" id="fCI-Cs-Ar2"/>
+                            <constraint firstItem="KMl-x1-I9K" firstAttribute="bottom" secondItem="6Xu-aW-CF5" secondAttribute="bottom" type="default" id="fb9-vQ-70h"/>
+                            <constraint firstItem="nxe-UO-ymu" firstAttribute="leading" secondItem="voa-35-RTm" secondAttribute="leading" type="default" id="hvy-jR-Ahm"/>
                             <constraint firstAttribute="trailing" secondItem="nxe-UO-ymu" secondAttribute="trailing" constant="20" symbolic="YES" type="user" id="hwO-MX-zb1"/>
-                            <constraint firstItem="voa-35-RTm" firstAttribute="top" secondItem="gq7-Uv-thc" secondAttribute="bottom" constant="63" type="user" id="koS-zX-GCJ"/>
+                            <constraint firstItem="GU2-ft-quW" firstAttribute="top" secondItem="bG6-yG-N6G" secondAttribute="top" type="default" id="oLO-YD-ESH"/>
                             <constraint firstItem="voa-35-RTm" firstAttribute="baseline" secondItem="KMl-x1-I9K" secondAttribute="baseline" type="user" id="ozG-Xe-NMT"/>
                             <constraint firstItem="bG6-yG-N6G" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="rR1-OT-lfR"/>
                             <constraint firstAttribute="trailing" secondItem="Tq4-UI-O3I" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="vrV-pZ-n0d"/>
+                            <constraint firstItem="KMl-x1-I9K" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="wUr-Sx-yx2"/>
                             <constraint firstItem="GU2-ft-quW" firstAttribute="leading" secondItem="bG6-yG-N6G" secondAttribute="trailing" constant="31" type="user" id="z5z-YX-MBC"/>
                         </constraints>
                     </view>
@@ -218,6 +239,24 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="butt-pug.png" width="50" height="43"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SGViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SGViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonPressed:" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="gameOverLabel" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="scoreBoard" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="timerLabel" candidateClass="UITextField"/>
+                <relationship kind="outletCollection" name="punchButtons" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

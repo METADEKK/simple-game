@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410A69DB17934AD9006394F3 /* butt-pug-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 410A69D817934AD9006394F3 /* butt-pug-568@2x.png */; };
+		410A69DC17934AD9006394F3 /* butt-pug.png in Resources */ = {isa = PBXBuildFile; fileRef = 410A69D917934AD9006394F3 /* butt-pug.png */; };
+		410A69DD17934AD9006394F3 /* butt-pug@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 410A69DA17934AD9006394F3 /* butt-pug@2x.png */; };
 		943B6FA21791E9950043EBDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B6FA11791E9950043EBDC /* UIKit.framework */; };
 		943B6FA41791E9950043EBDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B6FA31791E9950043EBDC /* Foundation.framework */; };
 		943B6FA61791E9950043EBDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B6FA51791E9950043EBDC /* CoreGraphics.framework */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		410A69D817934AD9006394F3 /* butt-pug-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "butt-pug-568@2x.png"; sourceTree = "<group>"; };
+		410A69D917934AD9006394F3 /* butt-pug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "butt-pug.png"; sourceTree = "<group>"; };
+		410A69DA17934AD9006394F3 /* butt-pug@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "butt-pug@2x.png"; sourceTree = "<group>"; };
 		943B6F9E1791E9950043EBDC /* Simple Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		943B6FA11791E9950043EBDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		943B6FA31791E9950043EBDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,6 +139,9 @@
 		943B6FA81791E9950043EBDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				410A69D817934AD9006394F3 /* butt-pug-568@2x.png */,
+				410A69D917934AD9006394F3 /* butt-pug.png */,
+				410A69DA17934AD9006394F3 /* butt-pug@2x.png */,
 				943B6FA91791E9950043EBDC /* Simple Game-Info.plist */,
 				943B6FAA1791E9950043EBDC /* InfoPlist.strings */,
 				943B6FAD1791E9950043EBDC /* main.m */,
@@ -241,6 +250,9 @@
 				943B6FB81791E9950043EBDC /* Default-568h@2x.png in Resources */,
 				943B6FBB1791E9950043EBDC /* MainStoryboard_iPhone.storyboard in Resources */,
 				943B6FBE1791E9950043EBDC /* MainStoryboard_iPad.storyboard in Resources */,
+				410A69DB17934AD9006394F3 /* butt-pug-568@2x.png in Resources */,
+				410A69DC17934AD9006394F3 /* butt-pug.png in Resources */,
+				410A69DD17934AD9006394F3 /* butt-pug@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +480,7 @@
 				943B6FDB1791E9960043EBDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		943B6FDC1791E9960043EBDC /* Build configuration list for PBXNativeTarget "Simple GameTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +489,7 @@
 				943B6FDE1791E9960043EBDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
