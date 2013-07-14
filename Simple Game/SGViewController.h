@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#define MAX_GAME_LENGTH 5
 
 @interface SGViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UITextField *timerLabel;
+@property (weak, nonatomic) IBOutlet UILabel *scoreBoard;
+- (IBAction)buttonPressed:(UIButton *)sender;
+@property NSInteger score;
+@property NSTimer* gameTimer;
+@property NSInteger gameTimeRemainign;
+@property (weak, nonatomic) IBOutlet UITextField *gameOverLabel;
 
 @end
